@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "945702158592",
+    "project_id": "fir-login-a17e6",
+    "storage_bucket": "fir-login-a17e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945702158592:android:048eb38f798703f20db3e5",
+        "android_client_info": {
+          "package_name": "com.example.dadandmom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945702158592-vudepa2hcq92sb35mpnjvotbfb76fhjg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnJ0kEuWty3XfHhx_mTs2W07W8QD6eV70"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945702158592-vudepa2hcq92sb35mpnjvotbfb76fhjg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945702158592:android:b4e002d6db9c65770db3e5",
+        "android_client_info": {
+          "package_name": "com.example.firebaselogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945702158592-vudepa2hcq92sb35mpnjvotbfb76fhjg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnJ0kEuWty3XfHhx_mTs2W07W8QD6eV70"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945702158592-vudepa2hcq92sb35mpnjvotbfb76fhjg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A2C7CC"
+    android:orientation="vertical"
+    tools:context=".register">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CREATE ACCOUNT"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#070707"
+        android:layout_marginTop="50dp"
+
+        android:layout_gravity="center"/>
+
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:id="@+id/email_reg"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:hint="email"
+        app:hintTextColor="#101010"
+        android:textStyle="bold"
+            android:textColor="#0B0A0A"
+            android:background="@drawable/background_btn"
+            android:drawableEnd="@drawable/baseline_perm_contact_calendar_24"
+            android:ems="14"
+            android:inputType="textEmailAddress">
+
+
+    </EditText>
+
+    <!--    password-->
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:id="@+id/password_reg"
+        android:layout_gravity="center"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:hint="password"
+        app:hintTextColor="#101010"
+        app:passwordToggleTint="@color/cardview_dark_background"
+        app:passwordToggleEnabled="true"
+
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="#0B0A0A"
+            android:drawableEnd="@drawable/baseline_lock_24"
+            android:background="@drawable/background_btn"
+            android:inputType="textPassword">
+
+
+
+    </EditText>>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_up_btn"
+        android:layout_marginTop="40dp"
+        android:text="Sign Up"
+        android:layout_gravity="center"
+        android:background="@drawable/background_btn"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="already have account? "
+            android:layout_marginStart="100dp"
+            android:textStyle="bold"
+            android:textColor="#090909"
+
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="click here"
+            android:textColor="#00B0FF"
+            android:textStyle="bold"
+            android:id="@+id/clickherelogin"
+            android:layout_marginTop="30dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
